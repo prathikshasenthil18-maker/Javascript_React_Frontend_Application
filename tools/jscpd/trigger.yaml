@@ -1,0 +1,17 @@
+tool: jscpd
+language: javascript
+language_version: "16.0.0"
+customer_version: "16"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Code Quality Auditing"
+classification: "Code Duplication Detection"
+platform_tool_name: "jscpd-js"
+project_link: true
+target_files: [tool-fixtures/retailOrderProcessor.js, tool-fixtures/wholesaleOrderProcessor.js, src/**/*.js]
+config_files: [.jscpd.json]
+run:
+  command: "bash tools/jscpd/run.sh"
+  npm_script: "jscpd"
+  cwd: "repository_root"
+expects: {duplicate_clone_detected: true}

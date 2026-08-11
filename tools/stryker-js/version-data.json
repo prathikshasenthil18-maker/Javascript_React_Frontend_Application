@@ -1,0 +1,9 @@
+{
+  "tool": "stryker-js",
+  "customer_version": "16",
+  "language_version": "16.0.0",
+  "syntax": "ES2021 / Node.js 16",
+  "syntax_notes": "replaceAll, Promise.any, logical assignment \u2014 no Object.hasOwn/.at/toSorted/findLast",
+  "golden_reference": "Golden_Repo_Lite/Javascript_16.0.0/stryker-js",
+  "excel_source": "Final_Enterprise_Mapping_Matrix 1.xlsx / JavaScript / React Frontend Application"
+}

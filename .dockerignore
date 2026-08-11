@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+.nyc_output
+reports
+.git
+_generate_react.py
+_tools_pack.py
