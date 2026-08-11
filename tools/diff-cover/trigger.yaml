@@ -1,0 +1,17 @@
+tool: diff-cover
+language: javascript
+language_version: "20.0.0"
+customer_version: "20"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Regression / Coverage Delta"
+classification: "Coverage Delta %"
+platform_tool_name: "coverage_delta"
+project_link: true
+target_files: [src/domain/**/*.js, coverage/lcov.info]
+config_files: [.nycrc.json, coverage/lcov.info]
+run:
+  command: "bash tools/diff-cover/run.sh"
+  npm_script: "diff-cover"
+  cwd: "repository_root"
+expects: {diff_coverage_report_generated: true}

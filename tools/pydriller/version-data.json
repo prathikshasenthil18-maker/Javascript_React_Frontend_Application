@@ -1,0 +1,9 @@
+{
+  "tool": "pydriller",
+  "customer_version": "20",
+  "language_version": "20.0.0",
+  "syntax": "ES2023 / Node.js 20",
+  "syntax_notes": "findLast/toSorted/with, native fetch, Object.hasOwn, .at(), Error.cause",
+  "golden_reference": "Golden_Repo_Lite/Javascript_20.0.0/pydriller",
+  "excel_source": "Final_Enterprise_Mapping_Matrix 1.xlsx / JavaScript / React Frontend Application"
+}

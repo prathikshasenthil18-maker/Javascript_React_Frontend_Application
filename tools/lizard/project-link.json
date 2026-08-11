@@ -1,0 +1,16 @@
+{
+  "tool": "lizard",
+  "platform_tool_name": "lizard",
+  "customer_version": "20",
+  "linked_project": "React Frontend Application (monolith root)",
+  "npm_script": "lizard",
+  "project_targets": [
+    "src/domain/**/*.js",
+    "tool-fixtures/**/*.js"
+  ],
+  "config_files": [
+    "requirements-tools.txt"
+  ],
+  "run_from": "repository root (../.. from this folder)",
+  "build_prerequisite": false
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "eslint",
+  "platform_tool_name": "eslint",
+  "customer_version": "20",
+  "linked_project": "React Frontend Application (monolith root)",
+  "npm_script": "lint",
+  "project_targets": [
+    "src/**/*.{js,jsx}",
+    "test/**/*.js"
+  ],
+  "config_files": [
+    ".eslintrc.cjs"
+  ],
+  "run_from": "repository root (../.. from this folder)",
+  "build_prerequisite": false
+}
