@@ -1,0 +1,13 @@
+{
+  "tool": "pydriller",
+  "files": [
+    "FILE_MANIFEST.json",
+    "README.md",
+    "project-link.json",
+    "run.py",
+    "run.sh",
+    "trigger.yaml"
+  ],
+  "links_to_project": true,
+  "customer_version": "26"
+}

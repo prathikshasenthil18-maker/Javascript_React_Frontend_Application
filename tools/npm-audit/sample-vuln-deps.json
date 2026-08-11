@@ -1,0 +1,9 @@
+{
+  "note": "Reference vuln pins from Golden_Repo_Lite (not installed into the React app).",
+  "reference_dependencies": {
+    "lodash": "4.17.15",
+    "minimist": "0.0.8"
+  },
+  "linked_audit_target": "repository root package.json / package-lock.json",
+  "customer_version": "26"
+}

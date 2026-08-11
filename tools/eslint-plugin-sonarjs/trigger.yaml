@@ -1,0 +1,17 @@
+tool: eslint-plugin-sonarjs
+language: javascript
+language_version: "26.0.0"
+customer_version: "26"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Code Quality Auditing"
+classification: "Cognitive Complexity"
+platform_tool_name: "eslint-sonarjs"
+project_link: true
+target_files: [src/domain/complexitySample.js, tool-fixtures/**/*.js]
+config_files: [.eslintrc.sonarjs.cjs]
+run:
+  command: "bash tools/eslint-plugin-sonarjs/run.sh"
+  npm_script: "lint:sonarjs"
+  cwd: "repository_root"
+expects: {cognitive_findings_possible: true}
