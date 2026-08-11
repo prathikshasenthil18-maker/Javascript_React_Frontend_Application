@@ -1,0 +1,9 @@
+{
+  "tool": "jscpd",
+  "customer_version": "24",
+  "language_version": "24.0.0",
+  "syntax": "ES2024+ / Node.js 24",
+  "syntax_notes": "latest V8 with Node 24 \u2014 Promise.withResolvers, Set methods, toSorted, Object.hasOwn",
+  "golden_reference": "Golden_Repo_Lite/Javascript_24.0.0/jscpd",
+  "excel_source": "Final_Enterprise_Mapping_Matrix 1.xlsx / JavaScript / React Frontend Application"
+}

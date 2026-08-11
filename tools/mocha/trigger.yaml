@@ -1,0 +1,17 @@
+tool: mocha
+language: javascript
+language_version: "24.0.0"
+customer_version: "24"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Control Flow Testing"
+classification: "Test Case Granularity"
+platform_tool_name: "nyc-mocha"
+project_link: true
+target_files: [src/domain/**/*.js, test/**/*.spec.js]
+config_files: [.mocharc.json]
+run:
+  command: "bash tools/mocha/run.sh"
+  npm_script: "test"
+  cwd: "repository_root"
+expects: {tests_pass: true}

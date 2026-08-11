@@ -1,0 +1,12 @@
+{
+  "tool": "stryker-js",
+  "files": [
+    "FILE_MANIFEST.json",
+    "README.md",
+    "project-link.json",
+    "run.sh",
+    "trigger.yaml"
+  ],
+  "links_to_project": true,
+  "customer_version": "24"
+}

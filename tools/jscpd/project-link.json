@@ -1,0 +1,17 @@
+{
+  "tool": "jscpd",
+  "platform_tool_name": "jscpd-js",
+  "customer_version": "24",
+  "linked_project": "React Frontend Application (monolith root)",
+  "npm_script": "jscpd",
+  "project_targets": [
+    "tool-fixtures/retailOrderProcessor.js",
+    "tool-fixtures/wholesaleOrderProcessor.js",
+    "src/**/*.js"
+  ],
+  "config_files": [
+    ".jscpd.json"
+  ],
+  "run_from": "repository root (../.. from this folder)",
+  "build_prerequisite": false
+}
