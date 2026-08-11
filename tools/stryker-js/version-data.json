@@ -1,0 +1,9 @@
+{
+  "tool": "stryker-js",
+  "customer_version": "18",
+  "language_version": "18.0.0",
+  "syntax": "ES2022 / Node.js 18",
+  "syntax_notes": "native fetch, Object.hasOwn, .at(), Error.cause, optional chaining, nullish coalescing",
+  "golden_reference": "Golden_Repo_Lite/Javascript_18.0.0/stryker-js",
+  "excel_source": "Final_Enterprise_Mapping_Matrix 1.xlsx / JavaScript / React Frontend Application"
+}

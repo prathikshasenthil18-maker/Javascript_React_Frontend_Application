@@ -1,0 +1,17 @@
+tool: nyc
+language: javascript
+language_version: "18.0.0"
+customer_version: "18"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Control Flow Testing"
+classification: "Statement / Branch Coverage"
+platform_tool_name: "nyc-mocha"
+project_link: true
+target_files: [src/domain/**/*.js, test/**/*.spec.js]
+config_files: [.nycrc.json, .mocharc.json]
+run:
+  command: "bash tools/nyc/run.sh"
+  npm_script: "test:coverage"
+  cwd: "repository_root"
+expects: {coverage_report_generated: true}
