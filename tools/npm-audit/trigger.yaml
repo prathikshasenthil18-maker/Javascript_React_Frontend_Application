@@ -1,0 +1,17 @@
+tool: npm-audit
+language: javascript
+language_version: "14.0.0"
+customer_version: "14"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Dependency Risk (SCA)"
+classification: "Vulnerability Dependency Detection"
+platform_tool_name: "npm-audit"
+project_link: true
+target_files: [package.json, package-lock.json]
+config_files: [package.json]
+run:
+  command: "bash tools/npm-audit/run.sh"
+  npm_script: "audit"
+  cwd: "repository_root"
+expects: {audit_json_emitted: true}

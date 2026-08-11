@@ -1,0 +1,17 @@
+tool: pydriller
+language: javascript
+language_version: "14.0.0"
+customer_version: "14"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Development Process Analysis"
+classification: "Code Churn"
+platform_tool_name: "pydriller"
+project_link: true
+target_files: [.git]
+config_files: [requirements-tools.txt, scripts/run_pydriller.py]
+run:
+  command: "bash tools/pydriller/run.sh"
+  npm_script: "pydriller"
+  cwd: "repository_root"
+expects: {churn_report_generated: true}

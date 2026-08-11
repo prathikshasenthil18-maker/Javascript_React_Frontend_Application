@@ -1,0 +1,17 @@
+tool: npm-ls
+language: javascript
+language_version: "14.0.0"
+customer_version: "14"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Dependency Inventory (SCA)"
+classification: "Dependency Tree"
+platform_tool_name: "npm-ls"
+project_link: true
+target_files: [package.json, package-lock.json]
+config_files: [package.json]
+run:
+  command: "bash tools/npm-ls/run.sh"
+  npm_script: "ls"
+  cwd: "repository_root"
+expects: {dependency_tree_emitted: true}

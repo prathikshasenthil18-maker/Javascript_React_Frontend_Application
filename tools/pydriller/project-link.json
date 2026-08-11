@@ -1,0 +1,16 @@
+{
+  "tool": "pydriller",
+  "platform_tool_name": "pydriller",
+  "customer_version": "14",
+  "linked_project": "React Frontend Application (monolith root)",
+  "npm_script": "pydriller",
+  "project_targets": [
+    ".git"
+  ],
+  "config_files": [
+    "requirements-tools.txt",
+    "scripts/run_pydriller.py"
+  ],
+  "run_from": "repository root (../.. from this folder)",
+  "build_prerequisite": false
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "eslint-plugin-security",
+  "platform_tool_name": "eslint-security",
+  "customer_version": "14",
+  "linked_project": "React Frontend Application (monolith root)",
+  "npm_script": "lint:security",
+  "project_targets": [
+    "src/**/*.js",
+    "tool-fixtures/sastFixture.js"
+  ],
+  "config_files": [
+    ".eslintrc.security.cjs"
+  ],
+  "run_from": "repository root (../.. from this folder)",
+  "build_prerequisite": false
+}
