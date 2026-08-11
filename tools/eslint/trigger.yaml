@@ -1,0 +1,17 @@
+tool: eslint
+language: javascript
+language_version: "12.0.0"
+customer_version: "12"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Static Code Analysis"
+classification: "Lint / Rule Violations"
+platform_tool_name: "eslint"
+project_link: true
+target_files: [src/**/*.{js,jsx}, test/**/*.js]
+config_files: [.eslintrc.cjs]
+run:
+  command: "bash tools/eslint/run.sh"
+  npm_script: "lint"
+  cwd: "repository_root"
+expects: {lint_runs_against_project: true}

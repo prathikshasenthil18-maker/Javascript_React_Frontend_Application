@@ -1,0 +1,9 @@
+{
+  "tool": "npm-ls",
+  "customer_version": "12",
+  "language_version": "12.0.0",
+  "syntax": "ES2019 / Node.js 12",
+  "syntax_notes": "no ?./??, no Object.hasOwn/.at/toSorted/findLast; Array.flat/flatMap, Object.fromEntries",
+  "golden_reference": "Golden_Repo_Lite/Javascript_12.0.0/npm-ls",
+  "excel_source": "Final_Enterprise_Mapping_Matrix 1.xlsx / JavaScript / React Frontend Application"
+}

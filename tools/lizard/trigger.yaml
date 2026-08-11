@@ -1,0 +1,17 @@
+tool: lizard
+language: javascript
+language_version: "12.0.0"
+customer_version: "12"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Structural Complexity"
+classification: "Cyclomatic Complexity + NLOC"
+platform_tool_name: "lizard"
+project_link: true
+target_files: [src/domain/**/*.js, tool-fixtures/**/*.js]
+config_files: [requirements-tools.txt]
+run:
+  command: "bash tools/lizard/run.sh"
+  npm_script: "lizard"
+  cwd: "repository_root"
+expects: {complexity_report_generated: true}

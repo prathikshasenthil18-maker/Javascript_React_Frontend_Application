@@ -1,0 +1,17 @@
+{
+  "tool": "nyc",
+  "platform_tool_name": "nyc-mocha",
+  "customer_version": "12",
+  "linked_project": "React Frontend Application (monolith root)",
+  "npm_script": "test:coverage",
+  "project_targets": [
+    "src/domain/**/*.js",
+    "test/**/*.spec.js"
+  ],
+  "config_files": [
+    ".nycrc.json",
+    ".mocharc.json"
+  ],
+  "run_from": "repository root (../.. from this folder)",
+  "build_prerequisite": true
+}
