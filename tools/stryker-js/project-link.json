@@ -1,0 +1,16 @@
+{
+  "tool": "stryker-js",
+  "platform_tool_name": "stryker-js",
+  "customer_version": "21",
+  "linked_project": "React Frontend Application (monolith root)",
+  "npm_script": "stryker",
+  "project_targets": [
+    "src/domain/calculator.js",
+    "test/calculator.spec.js"
+  ],
+  "config_files": [
+    "stryker.conf.json"
+  ],
+  "run_from": "repository root (../.. from this folder)",
+  "build_prerequisite": true
+}

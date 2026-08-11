@@ -1,0 +1,13 @@
+{
+  "tool": "diff-cover",
+  "files": [
+    "FILE_MANIFEST.json",
+    "README.md",
+    "lcov.info",
+    "project-link.json",
+    "run.sh",
+    "trigger.yaml"
+  ],
+  "links_to_project": true,
+  "customer_version": "21"
+}
