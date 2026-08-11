@@ -1,0 +1,17 @@
+tool: eslint-plugin-security
+language: javascript
+language_version: "22.0.0"
+customer_version: "22"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "SAST"
+classification: "Security Rule Violations"
+platform_tool_name: "eslint-security"
+project_link: true
+target_files: [src/**/*.js, tool-fixtures/sastFixture.js]
+config_files: [.eslintrc.security.cjs]
+run:
+  command: "bash tools/eslint-plugin-security/run.sh"
+  npm_script: "lint:security"
+  cwd: "repository_root"
+expects: {violations_detected: true}

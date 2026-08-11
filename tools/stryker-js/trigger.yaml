@@ -1,0 +1,17 @@
+tool: stryker-js
+language: javascript
+language_version: "22.0.0"
+customer_version: "22"
+project_type: "React Frontend Application"
+scenario: "1 - Monolithic"
+technique: "Mutation Testing"
+classification: "Mutation Score"
+platform_tool_name: "stryker-js"
+project_link: true
+target_files: [src/domain/calculator.js, test/calculator.spec.js]
+config_files: [stryker.conf.json]
+run:
+  command: "bash tools/stryker-js/run.sh"
+  npm_script: "stryker"
+  cwd: "repository_root"
+expects: {mutants_generated_and_tested: true}

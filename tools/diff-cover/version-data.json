@@ -1,0 +1,9 @@
+{
+  "tool": "diff-cover",
+  "customer_version": "22",
+  "language_version": "22.0.0",
+  "syntax": "ES2024 / Node.js 22",
+  "syntax_notes": "Promise.withResolvers, Set union/intersection/difference, toSorted, Object.hasOwn",
+  "golden_reference": "Golden_Repo_Lite/Javascript_22.0.0/diff-cover",
+  "excel_source": "Final_Enterprise_Mapping_Matrix 1.xlsx / JavaScript / React Frontend Application"
+}

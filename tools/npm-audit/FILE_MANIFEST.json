@@ -1,0 +1,13 @@
+{
+  "tool": "npm-audit",
+  "files": [
+    "FILE_MANIFEST.json",
+    "README.md",
+    "project-link.json",
+    "run.sh",
+    "sample-vuln-deps.json",
+    "trigger.yaml"
+  ],
+  "links_to_project": true,
+  "customer_version": "22"
+}

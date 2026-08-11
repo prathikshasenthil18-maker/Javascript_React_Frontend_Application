@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.nyc_output/
+reports/
+*.log
+.DS_Store
+.vite/
+_generate_react.py
+_tools_pack.py
+_version_js_pack.py
+__pycache__/

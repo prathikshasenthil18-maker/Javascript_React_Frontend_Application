@@ -1,0 +1,16 @@
+{
+  "tool": "npm-audit",
+  "platform_tool_name": "npm-audit",
+  "customer_version": "22",
+  "linked_project": "React Frontend Application (monolith root)",
+  "npm_script": "audit",
+  "project_targets": [
+    "package.json",
+    "package-lock.json"
+  ],
+  "config_files": [
+    "package.json"
+  ],
+  "run_from": "repository root (../.. from this folder)",
+  "build_prerequisite": false
+}

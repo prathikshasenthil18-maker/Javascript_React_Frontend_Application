@@ -1,0 +1,4 @@
+# Python-side analyzers linked to this JS React monolith
+lizard==1.17.31
+diff-cover==9.2.0
+pydriller==2.7
